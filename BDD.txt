@@ -1,0 +1,78 @@
+*****Table Utilisateurs : *****
+
+--idUser (clé primaire)
+--pseudoUser
+--emailUser
+--password
+--dateRegister
+
+*****Table Catégories : *****
+
+--idCategory (clé primaire)
+--nameCategory
+
+*****Table Quizz : *****
+
+--idQuizz (clé primaire)
+--categoryId (clé étrangère vers la table Catégories)
+--titleQuizz
+--descriptionQuizz
+--difficultyQuizz
+
+*****Table Questions : *****
+
+--idQuestion (clé primaire)
+--idQuizz (clé étrangère vers la table Quizz)
+--textQuestion
+
+*****Table Réponses : *****
+
+--idAnswer (clé primaire)
+--questionId (clé étrangère vers la table Questions)
+--textAnswer
+--isCorrect (booléen pour indiquer si la réponse est correcte ou non)
+
+chaque utilisateur peut créer un compte,
+sélectionner une catégorie de quiz,
+choisir un quizz spécifique, 
+répondre à plusieurs questions dans ce quizz,
+et sélectionner une réponse pour chaque question. 
+
+Les réponses peuvent ensuite être évaluées pour déterminer si elles sont correctes ou non.
+
+*****Table Scores : *****
+
+--idScore (clé primaire)
+--userId (clé étrangère vers la table Utilisateurs)
+--QuizzId (clé étrangère vers la table Quizz)
+--scoreResult
+--dateScore
+
+vous pouvez enregistrer les scores de chaque utilisateur pour chaque quizz 
+auquel ils ont participé. 
+
+Chaque enregistrement dans la table Scores serait associé à un utilisateur spécifique,
+à un quizz spécifique et enregistrerait le score obtenu ainsi que
+la date à laquelle le score a été enregistré.
+
+Chaque fois qu'un utilisateur termine un quizz,
+un nouvel enregistrement est ajouté à la table Scores pour enregistrer son score obtenu.
+Vous pouvez ensuite utiliser ces données pour suivre et afficher les scores des utilisateurs, 
+générer des classements,
+et fournir des statistiques sur les performances des utilisateurs dans les différents quizz.
+
+*****Table Classements : *****
+
+--idRanking (clé primaire)
+--UserId (clé étrangère vers la table Utilisateurs)
+--percentCorrectAnswer
+--rankingPosition
+
+Après chaque quizz terminé par un utilisateur, vous pouvez calculer 
+son pourcentage de réponses correctes et enregistrer ces informations dans la table Classements.
+
+Vous pouvez ensuite utiliser ces données pour générer un classement global
+ des utilisateurs en fonction de leur pourcentage de réponses correctes.
+
+La colonne rankingPosition peut être mise à jour dynamiquement en fonction des
+ nouveaux scores enregistrés, ce qui permet de maintenir le classement à jour en temps réel.
