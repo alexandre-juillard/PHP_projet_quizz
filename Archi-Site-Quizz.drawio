@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2024-02-19T16:40:48.758Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="S3MuoCXGfGTIBs5Yekp3" version="23.1.5" type="device">
+  <diagram name="Page-1" id="HstQE8c2TfsgiyyzTibM">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MVtB-DUlHBVTfH8rkmnz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVtB-DUlHBVTfH8rkmnz-1" target="MVtB-DUlHBVTfH8rkmnz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVtB-DUlHBVTfH8rkmnz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVtB-DUlHBVTfH8rkmnz-1" target="MVtB-DUlHBVTfH8rkmnz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVtB-DUlHBVTfH8rkmnz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MVtB-DUlHBVTfH8rkmnz-1" target="MVtB-DUlHBVTfH8rkmnz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVtB-DUlHBVTfH8rkmnz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVtB-DUlHBVTfH8rkmnz-1" target="MVtB-DUlHBVTfH8rkmnz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVtB-DUlHBVTfH8rkmnz-1" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;HOME&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVtB-DUlHBVTfH8rkmnz-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CATEGORIES&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVtB-DUlHBVTfH8rkmnz-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVtB-DUlHBVTfH8rkmnz-3" target="MVtB-DUlHBVTfH8rkmnz-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVtB-DUlHBVTfH8rkmnz-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;PROFIL&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVtB-DUlHBVTfH8rkmnz-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVtB-DUlHBVTfH8rkmnz-4" target="MVtB-DUlHBVTfH8rkmnz-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVtB-DUlHBVTfH8rkmnz-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CONTACT&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVtB-DUlHBVTfH8rkmnz-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;TOUS LES QUIZZ&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVtB-DUlHBVTfH8rkmnz-18" value="&lt;ul&gt;&lt;li&gt;Formulaire de contact&lt;/li&gt;&lt;li&gt;Formulaire de suggestion&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="200" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MVtB-DUlHBVTfH8rkmnz-20" value="&lt;ul&gt;&lt;li&gt;Infos du compte (nom, prenom, email)&lt;/li&gt;&lt;li&gt;Scores et suivi&lt;/li&gt;&lt;li&gt;edition et suppression&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="660" y="200" width="120" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
